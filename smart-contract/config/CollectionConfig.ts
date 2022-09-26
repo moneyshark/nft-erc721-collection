@@ -10,24 +10,24 @@ const CollectionConfig: CollectionConfigInterface = {
   // yarn rename-contract NEW_CONTRACT_NAME
   // Please DO NOT change it manually!
   contractName: 'MoneySharkTank',
-  tokenName: 'My NFT Token',
-  tokenSymbol: 'MNT',
-  hiddenMetadataUri: 'ipfs://__CID__/hidden.json',
-  maxSupply: 10000,
+  tokenName: 'SHARK',
+  tokenSymbol: 'SHARK',
+  hiddenMetadataUri: 'ipfs://QmVsJWppKCkbrBM9eGNZwNoz3fQUaA6xjvkRsrZBBtQHHz/hidden.json',
+  maxSupply: 2022,
   whitelistSale: {
-    price: 0.05,
-    maxMintAmountPerTx: 1,
+    price: 0.065,
+    maxMintAmountPerTx: 2,
   },
   preSale: {
     price: 0.07,
-    maxMintAmountPerTx: 2,
+    maxMintAmountPerTx: 3,
   },
   publicSale: {
-    price: 0.09,
+    price: 0.08,
     maxMintAmountPerTx: 5,
   },
   contractAddress: null,
-  marketplaceIdentifier: 'my-nft-token',
+  marketplaceIdentifier: 'money-shark-tank',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,
 };

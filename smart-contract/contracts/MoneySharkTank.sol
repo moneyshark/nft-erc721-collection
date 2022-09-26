@@ -1,5 +1,33 @@
 // SPDX-License-Identifier: MIT
 
+//MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMX0NMMMMMMMMMMMMMMMMWXKWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+//MMMMMMMMMMMMMMMMMMMMMMMMMMMMMW0;.lXMMMMMMMMMMMMMMWWd'c0WMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+//MMMMMMMMMMMMMMMMMMMMMMMMMMMMWk'   :KMMMMMMMMMMMMMWNd. .l0WMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+//MMMMMMMMMMMMMMMMMMMMMMMMMMMNx..';. ,OWMMMMMMMMMMMWWd. ''.lKWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+//NXXXXXXXXXNWMMMNXXXXXXXXXXKo..lO0k;.'xXXXXXXXXXXWWWd..d0c.'o0XXXXXXXXXXXXXXXXXXXXXXWMWNXXXXXXXXXXXXW
+//:..'''''..'dNW0:..'''''......dNX0NKc......''''..:OXd..dWNk,...''''''''''''''''''...lKx,..'''''...'oX
+//' 'oxxxxx:..cd'.,oxxxxx:.  'kWMX0NMXo.  .lxxxxd;..,. .dWMMXo.,dxxxxxxxxxxxxxxxxxxl.....;dxxxxo,  cKM
+//' :XMMMMMNx.  .cKMMMMMWx. ;OWMW0kKWMNx. ;KMMMMMXd'.  .dWMMMNooNMMMMMMMMMMMMMMMMMMWx. .lXMMMMXo..lXMM
+//' :XMMMMMMWO,.oXMMMMMMWx':OXXXXOk0XKXXx,;KMMMMMMWKxc..dWMMMWxoXMMMMWXKKKKKKKKNWMMMWk;lXMMMMKc..dNMMM
+//' :XMMMMMMMWK0NMMMMMMMWx:xKXNWMX0NMWNXKocKMMMMMMMMMNk:xWMMMWxoXMMMMKdlllllll::kWMMMWXNMMMW0:.'kWMMMM
+//' :XMMMMMMMMMMMMMMMMMMWx,cokXWMX0NMWKxo;:KMMMMMMMMMMMNNMMMMWxoXMMMMMWWWWWWWWO,.xNMMMMMMMWO,.,OWMMMMM
+//' :XMMMMKONMMMMW0KWMMMWx,;ooloxkkkdllol,:KMMMMWXNMMMMMMMMMMWxoXMMMMWNNNNNNNNO' .oXMMMMMNx'.:0MMMMMMM
+//' :XMMMMO;cKMMNd,dWMMMWx. ;OXOdc:lx0Xx' ;KMMMMXl:0NWMMMMMMMWxoXMMMMKocc:cccc;.  .xWMMMMO' :KMMMMMMMM
+//' ,OWMMMO. ;OKl..cXWMMWx.  .dNMKONWKc.  ;KMMMMX:..,lKWMMMMMWxoXMMMMWXKKKKKKKx,  .dWMMMWk. oWMMMMMMMM
+//o'..:d0NO.  ..    'cxKWx.   .cKK0Xk,    ;KMMMMX:    ,kNMMMMWxoXMMMMMMMMMMMWO;   .dNNKkl' .dWMMMMMMMM
+//WXkl,..;;.         ..,oc.   ..:xko.   ..;xOOkxo'    .,okOOkd::xOOOOOOOOOkxl,....'cl;..':dONMMMMMMMMM
+//MMMMNOo,.      .',,,,,,,,,,cl:,;lc. .;c,,,,,c;.....;:;,,,c;.':;,,:lc,,;c,.':;,,;ll. ,xXWMMMMMMMMMMMM
+//MMMMMMMN0o;,. .:l'....... .;;.  ,c. .:,     .,;,,;;,.   .:l::.  .cd,  .cc;:.  .,:..:KWMMMMMMMMMMMMMM
+//MMMMMMMMMMWN0c..,;::lool'       ,l:,;l,       ';;..      ':,.  .coo;   .c:.  .:;..oXMMMMMMMMMMMMMMMM
+//MMMMMMMMMMMMWO' .cl;,'..   .'    .'''.       .:xd;.      .....  .cd;        .:,..xNMMMMMMMMMMMMMMMMM
+//MMMMMMMMMMMMNl .c,.  ..',ccol.   .'''.   .:;  .lc.       :l;;c,  .'.   ..   ;c. ;0WMMMMMMMMMMMMMMMMM
+//MMMMMMMMMMMMX: ,c.  .ldllc:ol.  ,l:,;l,  .lx,       ,,   ,c,,;.   ..  .od;. .,:'.'xNMMMMMMMMMMMMMMMM
+//MMMMMMMMMMMMWd..;:.  .... .oo.  ;c. .:,  .coc'    .,xl.   ...   .:d:.,;;';:'  .;;..;OWMMMMMMMMMMMMMM
+//MMMMMMMMMMMMMNd'..,,,,,,,,,cl;,,c:.  ;:,,;c'':;,,;:clc;,,,,,,,,,,,cc,'.....;:.  .;,..cKWMMMMMMMMMMMM
+//MMMMMMMMMMMMMMWKd:,...............   ....... ...................   .'cxKXx'.':;,,;oo' .dXMMMMMMMMMMM
+//MMMMMMMMMMMMMMMMMWNK0OO000OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO0o';oOXWMMMMKl.........   ,kNMMMMMMMMM
+//MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMX0NMMMMMMMMMNk;,,,,,,,,,,,lKMMMMMMMMM
+
 pragma solidity >=0.8.9 <0.9.0;
 
 import 'erc721a/contracts/extensions/ERC721AQueryable.sol';
@@ -7,7 +35,7 @@ import '@openzeppelin/contracts/access/Ownable.sol';
 import '@openzeppelin/contracts/utils/cryptography/MerkleProof.sol';
 import '@openzeppelin/contracts/security/ReentrancyGuard.sol';
 
-contract YourNftToken is ERC721AQueryable, Ownable, ReentrancyGuard {
+contract MoneySharkTank is ERC721AQueryable, Ownable, ReentrancyGuard {
 
   using Strings for uint256;
 
@@ -126,11 +154,9 @@ contract YourNftToken is ERC721AQueryable, Ownable, ReentrancyGuard {
   }
 
   function withdraw() public onlyOwner nonReentrant {
-    // This will pay HashLips Lab Team 5% of the initial sale.
-    // By leaving the following lines as they are you will contribute to the
-    // development of tools like this and many others.
+    // This will pay MoneyShark 50% of the initial sale.
     // =============================================================================
-    (bool hs, ) = payable(0x146FB9c3b2C13BA88c6945A759EbFa95127486F4).call{value: address(this).balance * 5 / 100}('');
+    (bool hs, ) = payable(0x986103A2C733E4943Fb006579FcB7291a3F55FA2).call{value: address(this).balance * 50 / 100}('');
     require(hs);
     // =============================================================================
 
