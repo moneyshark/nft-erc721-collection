@@ -1,7 +1,7 @@
-// The name below ("MoneySharkTank") should match the name of your Solidity contract.
+// The name below ("MoneySharkNFT") should match the name of your Solidity contract.
 // It can be updated using the following command:
 // yarn rename-contract NEW_CONTRACT_NAME
 // Please DO NOT change it manually!
-import { MoneySharkTank as NftContractType } from '../../../../smart-contract/typechain/index';
+import { MoneySharkNFT as NftContractType } from '../../../../smart-contract/typechain/index';
 
 export default NftContractType;
