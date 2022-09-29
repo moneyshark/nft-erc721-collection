@@ -252,7 +252,7 @@ export default class Dapp extends React.Component<Props, State> {
               <div className="merkle-proof-manual-address">
                 <h2>Sharklist Proof</h2>
                 <p>
-                  Anyone can generate the proof using any public address in the list, but <strong>only the owner of that address</strong> will be able to make a successful transaction by using it.
+                  Check if your Wallet is on the Sharklist! Be fast to mint one of <strong>ONLY 400 Sharks</strong> for 0.065 ETH!
                 </p>
 
                 {this.state.merkleProofManualAddressFeedbackMessage ? <div className="feedback-message">{this.state.merkleProofManualAddressFeedbackMessage}</div> : null}
