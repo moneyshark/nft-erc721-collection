@@ -16,18 +16,18 @@ const CollectionConfig: CollectionConfigInterface = {
   maxSupply: 2022,
   whitelistSale: {
     price: 0.065,
-    maxMintAmountPerTx: 2,
+    maxMintAmountPerTx: 4,
   },
   preSale: {
     price: 0.07,
-    maxMintAmountPerTx: 3,
+    maxMintAmountPerTx: 4,
   },
   publicSale: {
     price: 0.08,
-    maxMintAmountPerTx: 5,
+    maxMintAmountPerTx: 4,
   },
-  contractAddress: null,
-  marketplaceIdentifier: 'money-shark-tank',
+  contractAddress: '0x751A7006f99D9E27441b56EAdB9a6D5Ebbd9E40b',
+  marketplaceIdentifier: 'money-shark-nft',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,
 };
