@@ -174,7 +174,7 @@ export default class Dapp extends React.Component<Props, State> {
       merkleProofManualAddressFeedbackMessage:
       <>
         <strong>Congratulations!</strong> <span className="emoji">🎉</span><br />
-        Your Merkle Proof <strong>has been copied to the clipboard</strong>. You can paste it into <a href={this.generateContractUrl()} target="_blank">{this.state.networkConfig.blockExplorer.name}</a> to claim your tokens.
+        Your made it on the Sharklist and your Merkle Proof <strong>has been copied to the clipboard</strong>. You can paste it into <a href={this.generateContractUrl()} target="_blank">{this.state.networkConfig.blockExplorer.name}</a> to claim your tokens or just mint directly from this dapp!
       </>,
     });
   }
