@@ -245,7 +245,7 @@ export default class Dapp extends React.Component<Props, State> {
               Hey <span className="emoji">🦈</span>, looking for a <strong>super-safe experience</strong>? <br />
               You can interact with the smart-contract <strong>directly</strong> through <a href={this.generateContractUrl()} target="_blank">{this.state.networkConfig.blockExplorer.name}</a>, without even connecting your wallet to this DAPP! <span className="emoji">🚀</span><br />
               <br />
-              <strong>Stay safe, Kings of the ocean!</strong> <span className="emoji">❤️</span>
+              <strong>Stay safe, kings of the ocean!</strong> <span className="emoji">❤️</span>
             </div>
 
             {!this.isWalletConnected() || this.state.isWhitelistMintEnabled ?
